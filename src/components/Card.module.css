@@ -1,0 +1,25 @@
+.imageList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
